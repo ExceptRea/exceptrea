@@ -17,7 +17,6 @@ body {
   background-size: 400% 400%;
   background-repeat: no-repeat;
   animation: gradient 12s ease infinite;
-  height: 100%;
 }
 
 .content p {
