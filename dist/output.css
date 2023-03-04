@@ -551,10 +551,6 @@ video {
   padding: 1rem;
 }
 
-.static {
-  position: static;
-}
-
 .fixed {
   position: fixed;
 }
