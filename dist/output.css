@@ -808,6 +808,16 @@ video {
   padding-bottom: 0.625rem;
 }
 
+.px-10 {
+  padding-left: 2.5rem;
+  padding-right: 2.5rem;
+}
+
+.px-5 {
+  padding-left: 1.25rem;
+  padding-right: 1.25rem;
+}
+
 .pl-3 {
   padding-left: 0.75rem;
 }
@@ -1045,6 +1055,21 @@ body {
     padding-right: 1.25rem;
   }
 
+  .md\:px-10 {
+    padding-left: 2.5rem;
+    padding-right: 2.5rem;
+  }
+
+  .md\:px-20 {
+    padding-left: 5rem;
+    padding-right: 5rem;
+  }
+
+  .md\:px-32 {
+    padding-left: 8rem;
+    padding-right: 8rem;
+  }
+
   .md\:\!text-\[30px\] {
     font-size: 30px !important;
   }
@@ -1086,5 +1111,12 @@ body {
       --tw-text-opacity: 1;
       color: rgb(255 255 255 / var(--tw-text-opacity));
     }
+  }
+}
+
+@media (min-width: 1024px) {
+  .lg\:px-32 {
+    padding-left: 8rem;
+    padding-right: 8rem;
   }
 }
