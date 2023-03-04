@@ -877,18 +877,6 @@ video {
           backdrop-filter: var(--tw-backdrop-blur) var(--tw-backdrop-brightness) var(--tw-backdrop-contrast) var(--tw-backdrop-grayscale) var(--tw-backdrop-hue-rotate) var(--tw-backdrop-invert) var(--tw-backdrop-opacity) var(--tw-backdrop-saturate) var(--tw-backdrop-sepia);
 }
 
-.container {
-  padding-left: 1rem;
-  padding-right: 1rem;
-}
-
-@media (min-width: 768px) {
-  .container {
-    padding-left: 0px;
-    padding-right: 0px;
-  }
-}
-
 .card-h1 {
   font-size: 30px;
   font-family: "VT323", monospace;
@@ -897,6 +885,7 @@ video {
 body {
   background: linear-gradient(-45deg, #3e0b49, #cc68f6, #da1f49, #3ed4b2);
   background-size: 400% 400%;
+  background-repeat: no-repeat;
   animation: gradient 12s ease infinite;
   height: 100vh;
 }
