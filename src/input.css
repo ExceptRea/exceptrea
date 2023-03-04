@@ -11,14 +11,14 @@
 
 .card-h1 {
   font-size: 30px;
-  font-family: "VT323", monospace;
+  font-family: "Caudex", serif;
 }
 body {
   background: linear-gradient(-45deg, #3e0b49, #cc68f6, #da1f49, #3ed4b2);
   background-size: 400% 400%;
   background-repeat: no-repeat;
   animation: gradient 12s ease infinite;
-  height: 100vh;
+  height: 100%;
 }
 
 .content p {
