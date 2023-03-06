@@ -13,12 +13,17 @@
   font-family: "Caudex", serif;
 }
 body {
-  background: linear-gradient(-45deg, #3e0b49, #cc68f6, #da1f49, #3ed4b2);
+  background: linear-gradient(-45deg, #0c1f67, #cc68f6, #da1f49, #3ed4b2);
   background-size: 400% 400%;
   background-repeat: no-repeat;
   animation: gradient 12s ease infinite;
 }
-
+#secondstory {
+  background: linear-gradient(-45deg, #0c1f67, #122c64, #19708a, #5d72a2);
+  background-size: 400% 400%;
+  background-repeat: no-repeat;
+  animation: gradient 12s ease infinite;
+}
 .content p {
   padding-top: 2em;
   text-indent: 2em;
